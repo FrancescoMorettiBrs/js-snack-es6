@@ -13,11 +13,11 @@ const biciclette = [
   
   let biciMenoPesante = biciclette[0]
 
-  for (i = 0; i < biciclette.length; i++) {
+  for (let i = 0; i < biciclette.length; i++) {
     if (biciclette[i].peso < biciMenoPesante.peso) {
         biciMenoPesante = biciclette[i]
     }
   }
 
-  console.log(biciMenoPesante);
+  console.log(biciclette);
   
